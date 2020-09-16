@@ -21,5 +21,10 @@ namespace TestinisProjektas
         {
             return pirmasDemuo - antrasDemuo;
         }
+
+        static int Daugyba(int pirmasDemuo, int antrasDemuo)
+        {
+            return pirmasDemuo * antrasDemuo;
+        }
     }
 }

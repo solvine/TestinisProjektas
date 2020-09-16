@@ -16,5 +16,10 @@ namespace TestinisProjektas
         {
             return pirmasDemuo + antrasDemuo;
         }
+
+        static int Atimtis(int pirmasDemuo, int antrasDemuo)
+        {
+            return pirmasDemuo - antrasDemuo;
+        }
     }
 }

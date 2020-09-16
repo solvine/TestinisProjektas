@@ -12,6 +12,7 @@ namespace TestinisProjektas
         {
             int sum = Suma(1, 3);
             Console.WriteLine($"SUMA: {sum}");
+            ExitApp();
         }
 
         static int Suma(int pirmasDemuo, int antrasDemuo)
@@ -27,6 +28,14 @@ namespace TestinisProjektas
         static int Daugyba(int pirmasDemuo, int antrasDemuo)
         {
             return pirmasDemuo * antrasDemuo;
+        }
+
+        static void ExitApp()
+        {
+            //---------------------------
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }

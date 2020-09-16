@@ -10,6 +10,8 @@ namespace TestinisProjektas
     {
         static void Main(string[] args)
         {
+            int sum = Suma(1, 3);
+            Console.WriteLine($"SUMA: {sum}");
         }
 
         static int Suma(int pirmasDemuo, int antrasDemuo)
